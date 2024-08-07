@@ -34,7 +34,7 @@
 // console.log(another_array);
 
 // Difference between slice and splice i.e slice does return til end - 1 and splice return till end.
-// Also slice returns a copy and does not update the actual array but splice actually removes the element from the actual array and retruns it. 
+// Also slice returns a copy and does not update the actual array but splice actually removes the element from the actual array and returns it. 
 
 // Methods in Array
 
