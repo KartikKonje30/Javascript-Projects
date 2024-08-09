@@ -34,21 +34,22 @@
 // functions can be accessed from any where within a js file if it is declared anywhere because javascript checks for function declaration and then runs it.
 // even if it is executed before function declaration will still run
 
-addOne(3)
+// addOne(3)
 
-function addOne(num){  // Treated as a function
-    return num + 1
-}
+// function addOne(num){  // Treated as a function
+//     return num + 1
+// }
 
 // But in the second case it will throw an error 
 // " Cannot access 'addTwo' before initialization "
 // as expression cannot be executed first as it is declared afterwards
+// because variables cannot be declared afterwards and functions can be declared, so there is a difference.
 
-addTwo(3)
+// addTwo(3)
 
-let addTwo = function addTwo(num){  // Treated as an expression as the variable is storing a function
-    return num + 2
-}
+// let addTwo = function addTwo(num){  // Treated as an expression as the variable is storing a function
+//     return num + 2
+// }
 
 
 
