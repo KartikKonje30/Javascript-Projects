@@ -130,3 +130,25 @@ let movies = ["ABCD", "Kantara", "Stree", 'Munjya', 'Bhediya']
 
 // movies.forEach(sample) //passing reference of the object
 
+// accessing [{}, {}, {}] from array of objects using for each loop
+
+// const sample_array = [
+//     {
+//         movie_name: "ABCD",
+//         rating: '8.5'
+//     },
+//     {
+//         movie_name: "Kantara",
+//         rating: '9.5'
+//     },
+//     {
+//         movie_name: "Munjya",
+//         rating: '8.7'
+//     },
+// ]
+
+// sample_array.forEach((item) => {
+//     console.log(`${item.movie_name}, Rating: ${item.rating}`);
+// })
+
+// This is how one can access data from array of objects
