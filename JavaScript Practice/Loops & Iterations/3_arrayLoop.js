@@ -1,6 +1,8 @@
 
 // Higher Order Array Loops
 
+// FOR_OF & FOR_IN LOOP
+
 // for-Of Loop
 // simpltest way to loop without increamenting 
 
@@ -13,7 +15,7 @@
 // example:
 
 // for array
-let movies = ["ABCD", "Kantara", "Stree"] 
+// let movies = ["ABCD", "Kantara", "Stree"] 
 
 // for(const movie of movies){
 //     console.log(movie);
@@ -94,4 +96,37 @@ let movies = ["ABCD", "Kantara", "Stree"]
 //     console.log(key); 
 // }
 
+
+// For-Each Loop
+// Most useful loop for accessing say data from api/database
+// It is a function bydefault injected in array methods to run certain operations
+// This Loop already has access of element, it's index and the entire array
+// syntax:
+
+// array.forEach( Callbackfn(element: (string), index: (number), entire_array: (string[])){
+    // operation to be performed
+// });
+
+// example:
+
+let movies = ["ABCD", "Kantara", "Stree", 'Munjya', 'Bhediya'] 
+
+// using callbackfunction 
+// callbackfunction is nothing but a function returning some values or performing some action
+// as we are using callbackfunction it has no name
+// movies.forEach( function (ele, idx, arr){
+//     console.log(`Element: ${ele}, Index: ${idx}, Array: ${arr})}`);
+// })
+
+// using arrow function as callbackfunction
+// movies.forEach( (item, idx, arr) => {
+//     console.log(`Item: ${item}, Index: ${idx}, Array: ${arr})}`);
+// })
+
+// using explicit function as callbackfunction
+// function sample(item, idx, arr){
+//     console.log(idx, item, arr); 
+// }
+
+// movies.forEach(sample) //passing reference of the object
 
