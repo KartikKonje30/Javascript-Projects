@@ -1,5 +1,7 @@
 
-// For-Each Loop
+// FOR EACH AND FILTER METHOD
+
+// For-Each Loop 
 // Most useful loop for accessing say data from api/database
 // It is a function bydefault injected in array methods to run certain operations
 // This Loop already has access of element, it's index and the entire array
