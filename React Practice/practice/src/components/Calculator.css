@@ -1,0 +1,49 @@
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: full;
+    height: full;
+    margin-top: 150px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.topSection{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputNum{
+    width: 230px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 10px;
+    font-size: medium;
+}
+
+.result{
+    width: 230px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.buttons-layout{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+    margin-top: 1rem; 
+}
+
+.btn{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(231, 228, 228) ;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+
